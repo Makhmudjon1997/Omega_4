@@ -375,5 +375,28 @@ ul, ol{
 
 .footer-text{
     color: #19191B;
+}
 
+@media (max-width: 1090px){
+    .container{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 980px){
+    .container{
+        width: 800px;
+    }
+}
+
+@media (max-width: 780px){
+    .container{
+        width: 600px;
+    }
+}
+
+@media (max-width: 580px){
+    .container{
+        width: 400px;
+    }
 }
