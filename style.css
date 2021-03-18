@@ -401,7 +401,7 @@ padding: 20px 0;
 
 .enjoy .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -464,61 +464,153 @@ padding: 20px 0;
     color: #19191B;
 }
 
-
-/* @media (max-width: 1290px){
-    .container-fluid{
-        width: 1000px;
+@media (min-width: 320px) and (max-width:568px){
+    .nav-toggle{
+        display: block;
     }
-}
-
-
-@media (max-width: 1090px){
-    .container {
-        width: 1000px;
+  
+    .nav-link{
+        display: none;
     }
-    .container-fluid{
-        width: 950px;
-    }
-}
-
-@media (max-width: 980px){
     .container{
-        width: 800px;
+        width: 250px;
+        margin: 0 auto;
     }
+
     .container-fluid{
-        width: 750px;
+        width: 280px;
+        margin: 0px auto;
     }
-    .header{
-        background-color: #5454D4;
+
+    .header .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-title{
+        font-size: 20px;
+    }
+
+    .header-info{
+        text-align: center;
+    }
+
+    .box-price{
+        width: 100px;
+    }
+
+    .box-price-number{
+        font-size: 40px;
+    }
+
+    .header-add{
+        flex-direction: column;
+    }
+
+    .header-button{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+
+    .headphone-img{
+        width: 100px;
+        height: 150px;
+    }
+
+    .second-headphone-img{
+        width: 100px;
+        order: -1;
+        height: 150px;
+    }
+
+    .get-noise .container{
+        flex-direction: column;
+    }
+
+    .get-noise-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .get-noise-title{
+        font-size: 40px;
+    }
+
+    .items-heading{
+        font-size: 40px;
+    }
+
+    .items-list{
+        flex-wrap: wrap;
+    }
+
+    .music-title{
+        font-size: 40px;
+    }
+
+    .music-images{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .people-title{
+        font-size: 40px;
+        text-align: center;
+    }
+
+   
+    .customers-title{
+        font-size: 40px;
+    }
+
+
+    .customers-text{
+        font-size: 18px;
+        text-align: center;
+    }
+    .customers-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .customers-item{
+        width: 400px;
+        margin: 10px 0;
+    }
+
+    .enjoy .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .enjoy-title{
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-list{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .footer-item{
+        padding: 10px;
     }
 }
 
-@media (max-width: 780px){
-    .container {
-        width: 600px;
-    }
-    .container-fluid{
-        width: 600px;
-    }
-    .header{
-        background-color: #5454D4;
-    }
-}
-
-
-@media (max-width: 580px){
-    .container{
-        width: 400px;
-    }
-    .container-fluid{
-        width: 400px;
-    }
-    .header{
-        background-color: #5454D4;
-    }
-} */
-
-@media (max-width: 767px){
+@media (min-width: 569px) and (max-width: 767px){
     .nav-toggle{
         display: block;
     }
@@ -617,10 +709,7 @@ padding: 20px 0;
         text-align: center;
     }
 
-    .customers-page{
-        margin-left: ;
-    }
-
+   
     .customers-title{
         font-size: 40px;
     }
@@ -665,14 +754,159 @@ padding: 20px 0;
     .footer-item{
         padding: 10px;
     }
-
-
 }
 
-@media (min-width:768px) and (max-width: 1023){
+@media (min-width:768px) and (max-width: 1023px){
+    .container{
+        width: 800px;
+        margin: 0 auto;
+    }
 
+    .container-fluid{
+        width: 720px;
+        margin: 0px auto;
+    }
+
+    .header .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-title{
+        font-size: 20px;
+    }
+
+    .header-info{
+        text-align: center;
+    }
+
+    .box-price{
+        width: 100px;
+    }
+
+    .box-price-number{
+        font-size: 40px;
+    }
+
+    .header-add{
+        flex-direction: column;
+    }
+
+    .header-button{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+
+    .headphone-img{
+        width: 100px;
+        height: 150px;
+    }
+
+    .second-headphone-img{
+        width: 100px;
+        order: -1;
+        height: 150px;
+    }
+
+    .get-noise .container{
+        flex-direction: column;
+    }
+
+    .get-noise-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .get-noise-title{
+        font-size: 40px;
+    }
+
+    .items-heading{
+        font-size: 40px;
+    }
+
+    .music-title{
+        font-size: 40px;
+    }
+
+    .music-images{
+        justify-content: center;
+    }
+
+    .girl-photo{
+        width: 450px;
+    }
+
+    .people{
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 0;
+        height: 400px;
+    }
+
+    .people .container{
+      margin-top: -50px;
+    }
+    .people-title{
+        font-size: 40px;
+    }
+
+    .customers-title{
+        font-size: 40px;
+    }
+
+    .customers-text{
+        font-size: 18px;
+        text-align: center;
+    }
+    .customers-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .customers-item{
+        width: 400px;
+        margin: 10px 0;
+    }
+
+    .enjoy .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .enjoy-title{
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-list{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .footer-item{
+        padding: 10px;
+    }
 }
 
 @media (min-width: 1024px){
-    
+    .container{
+        width: 100%;
+    }
+
+    .container-fluid{
+        width: 100%;
+    }
 }
