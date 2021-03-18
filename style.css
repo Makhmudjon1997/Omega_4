@@ -535,6 +535,21 @@ padding: 20px 0;
         width: 320px;
         margin: 0px auto;
     }
+
+    .header .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-title{
+        font-size: 20px;
+    }
+
+    .headphone-img{
+        width: 100px;
+        height: 150px;
+    }
 }
 
 @media (min-width:768px) and (max-width: 1023){
