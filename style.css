@@ -617,6 +617,10 @@ padding: 20px 0;
         text-align: center;
     }
 
+    .customers-page{
+        margin-left: -50px;
+    }
+
     .customers-title{
         font-size: 40px;
     }
