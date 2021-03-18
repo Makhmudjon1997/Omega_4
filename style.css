@@ -621,6 +621,21 @@ padding: 20px 0;
         font-size: 40px;
     }
 
+
+    .customers-text{
+        font-size: 18px;
+        text-align: center;
+    }
+    .customers-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .customers-item{
+        width: 400px;
+        margin: 10px 0;
+    }
+
     .enjoy .container{
         display: flex;
         flex-direction: column;
@@ -629,6 +644,7 @@ padding: 20px 0;
     .enjoy-title{
         font-size: 40px;
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .footer .container{
