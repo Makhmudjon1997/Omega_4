@@ -22,6 +22,11 @@ ul, ol{
     margin: 0 auto;
 }
 
+.container-fluid{
+    width: 1240px;
+    margin: 0 auto;
+}
+
 .header{
     background-color: #5454D4;
     padding: 20px 30px;
@@ -440,9 +445,20 @@ padding: 20px 0;
     color: #19191B;
 }
 
-@media (max-width: 1090px){
-    .container{
+
+@media (max-width: 1290px){
+    .container-fluid{
         width: 1000px;
+    }
+}
+
+
+@media (max-width: 1090px){
+    .container {
+        width: 1000px;
+    }
+    .container-fluid{
+        width: 950px;
     }
 }
 
@@ -450,16 +466,36 @@ padding: 20px 0;
     .container{
         width: 800px;
     }
+    .container-fluid{
+        width: 750px;
+    }
+    .header{
+        background-color: #5454D4;
+    }
 }
 
 @media (max-width: 780px){
-    .container{
+    .container {
         width: 600px;
     }
+    .container-fluid{
+        width: 600px;
+    }
+    .header{
+        background-color: #5454D4;
+    }
 }
+
 
 @media (max-width: 580px){
     .container{
         width: 400px;
     }
+    .container-fluid{
+        width: 400px;
+    }
+    .header{
+        background-color: #5454D4;
+    }
+}
 }
