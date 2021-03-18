@@ -516,11 +516,16 @@ padding: 20px 0;
     .nav-toggle{
         display: block;
     }
-    .container{
-        width: 100%;
-    }
+  
     .nav-link{
         display: none;
+    }
+    .container{
+        width: 320px;
+    }
+
+    .container-fluid{
+        width: 320px;
     }
 }
 
