@@ -568,6 +568,18 @@ padding: 20px 0;
         width: 100px;
         height: 150px;
     }
+
+    .second-headphone-img{
+        width: 100px;
+        order: -1;
+        height: 150px;
+    }
+
+    .get-noise .container{
+        flex-direction: column;
+    }
+
+
 }
 
 @media (min-width:768px) and (max-width: 1023){
