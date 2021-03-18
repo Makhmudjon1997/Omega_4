@@ -546,6 +546,10 @@ padding: 20px 0;
         font-size: 20px;
     }
 
+    .header-info{
+        text-align: center;
+    }
+
     .box-price{
         width: 100px;
     }
@@ -577,6 +581,13 @@ padding: 20px 0;
 
     .get-noise .container{
         flex-direction: column;
+    }
+
+    .get-noise-info{
+        text-align: center;
+    }
+    .get-noise-title{
+        font-size: 40px;
     }
 
 
