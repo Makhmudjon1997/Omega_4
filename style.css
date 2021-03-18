@@ -546,8 +546,22 @@ padding: 20px 0;
         font-size: 20px;
     }
 
-    .header-text{
-        
+    .box-price{
+        width: 100px;
+    }
+
+    .box-price-number{
+        font-size: 40px;
+    }
+
+    .header-add{
+        flex-direction: column;
+    }
+
+    .header-button{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: -10px;
     }
 
     .headphone-img{
