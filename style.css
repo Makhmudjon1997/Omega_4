@@ -69,6 +69,12 @@ ul, ol{
     color: white;
 }
 
+.nav-link-link{
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+}
+
 .homepage-link:hover, .nav-link:hover{
     text-decoration: underline;
 }
@@ -522,10 +528,12 @@ padding: 20px 0;
     }
     .container{
         width: 320px;
+        margin: 0 auto;
     }
 
     .container-fluid{
         width: 320px;
+        margin: 0px auto;
     }
 }
 
