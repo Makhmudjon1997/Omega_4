@@ -584,10 +584,23 @@ padding: 20px 0;
     }
 
     .get-noise-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        justify-content: center;
     }
     .get-noise-title{
         font-size: 40px;
+    }
+
+    .items-heading{
+        font-size: 40px;
+    }
+
+    .items-list{
+        flex-wrap: wrap;
     }
 
 
